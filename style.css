@@ -1,0 +1,80 @@
+/* Set the overall background, fonts, and dark mode style */
+body {
+    background-color: #121212;
+    color: #cccccc;
+    font-family: "Courier New", Courier, monospace;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    padding: 2rem;
+    border-bottom: 2px solid #666;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #ffcc00; /* Old school yellowish color */
+    text-shadow: 1px 1px #000;
+}
+
+header p {
+    color: #999;
+}
+
+/* Main content styling */
+main {
+    flex: 1;
+    padding: 2rem;
+    text-align: center;
+}
+
+main h2 {
+    color: #ffcc00;
+    text-shadow: 1px 1px #000;
+    margin-bottom: 1rem;
+}
+
+main p {
+    max-width: 600px;
+    margin: 0 auto;
+    color: #cccccc;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #1e1e1e;
+    color: #777;
+    border-top: 2px solid #666;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Add an 'old' feeling with monospace font and slight border */
+h1, h2, p {
+    border: 1px solid #444;
+    padding: 10px;
+    background-color: #2e2e2e;
+    border-radius: 5px;
+}
+
+/* Link styling */
+a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
